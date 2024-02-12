@@ -52,23 +52,35 @@
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		5048C1D14BE29FE36ADCA185 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6410BAC34147F4E49E2367F5 /* Pods-Runner.release-app1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-app1.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-app1.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75042968D3A3B680BC0F7E19 /* Pods-RunnerTests.release-app1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-app1.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-app1.xcconfig"; sourceTree = "<group>"; };
 		76D2901C6422F662AEDC6234 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		7ADB2429D97AD3A641BF9929 /* Pods-Runner.profile-app1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-app1.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-app1.xcconfig"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
+		84120EABC268EA262FB36BBC /* Pods-RunnerTests.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-dev.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-dev.xcconfig"; sourceTree = "<group>"; };
+		8689AA4166EE284239D43530 /* Pods-RunnerTests.profile-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-dev.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-dev.xcconfig"; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
-		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C146EE1CF9000F007C117D /* Flutter Flavors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flutter Flavors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA35991CBBA612293723A8E /* Pods-Runner.release-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-dev.xcconfig"; sourceTree = "<group>"; };
+		A45D5F4E378C4FBDFB0DFE64 /* Pods-RunnerTests.release-app2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-app2.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-app2.xcconfig"; sourceTree = "<group>"; };
+		A6357C308D1AC02BFFD3DF89 /* Pods-Runner.profile-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-dev.xcconfig"; sourceTree = "<group>"; };
 		A85C1D1F30BF7B7A2B58B21A /* Pods-Runner.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		ABD7DC4537C4F136860575AA /* Pods-RunnerTests.profile-app2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-app2.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-app2.xcconfig"; sourceTree = "<group>"; };
 		B03FA9B7692D9669BA057807 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		B4BA99995AD4EE5EC256FFB2 /* Pods-RunnerTests.debug-app1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-app1.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-app1.xcconfig"; sourceTree = "<group>"; };
 		B94672B3A32B2E8F8733BF85 /* Pods-RunnerTests.debug-app2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-app2.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-app2.xcconfig"; sourceTree = "<group>"; };
+		B9B4E571CF53878ACA4B595A /* Pods-Runner.release-app2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-app2.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-app2.xcconfig"; sourceTree = "<group>"; };
 		C5D2F734C3B3E5D9EC602D49 /* Pods-RunnerTests.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-dev.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-dev.xcconfig"; sourceTree = "<group>"; };
+		C787E200250FCA46D5777033 /* Pods-Runner.profile-app2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-app2.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-app2.xcconfig"; sourceTree = "<group>"; };
 		CBCB3F72DC939C88D14F944A /* Pods-Runner.debug-app1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-app1.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-app1.xcconfig"; sourceTree = "<group>"; };
+		CEFCB8D5FAA32F1AA7D4A2F2 /* Pods-RunnerTests.profile-app1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-app1.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-app1.xcconfig"; sourceTree = "<group>"; };
 		D2ABE7479CC10491E70189FE /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91C2917B6D9E43E9AE91F58 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +128,18 @@
 				F91C2917B6D9E43E9AE91F58 /* Pods-RunnerTests.profile.xcconfig */,
 				A85C1D1F30BF7B7A2B58B21A /* Pods-Runner.debug-dev.xcconfig */,
 				C5D2F734C3B3E5D9EC602D49 /* Pods-RunnerTests.debug-dev.xcconfig */,
+				9DA35991CBBA612293723A8E /* Pods-Runner.release-dev.xcconfig */,
+				6410BAC34147F4E49E2367F5 /* Pods-Runner.release-app1.xcconfig */,
+				B9B4E571CF53878ACA4B595A /* Pods-Runner.release-app2.xcconfig */,
+				A6357C308D1AC02BFFD3DF89 /* Pods-Runner.profile-dev.xcconfig */,
+				7ADB2429D97AD3A641BF9929 /* Pods-Runner.profile-app1.xcconfig */,
+				C787E200250FCA46D5777033 /* Pods-Runner.profile-app2.xcconfig */,
+				84120EABC268EA262FB36BBC /* Pods-RunnerTests.release-dev.xcconfig */,
+				75042968D3A3B680BC0F7E19 /* Pods-RunnerTests.release-app1.xcconfig */,
+				A45D5F4E378C4FBDFB0DFE64 /* Pods-RunnerTests.release-app2.xcconfig */,
+				8689AA4166EE284239D43530 /* Pods-RunnerTests.profile-dev.xcconfig */,
+				CEFCB8D5FAA32F1AA7D4A2F2 /* Pods-RunnerTests.profile-app1.xcconfig */,
+				ABD7DC4537C4F136860575AA /* Pods-RunnerTests.profile-app2.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,7 +179,7 @@
 		97C146EF1CF9000F007C117D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97C146EE1CF9000F007C117D /* Runner.app */,
+				97C146EE1CF9000F007C117D /* Flutter Flavors.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
 			);
 			name = Products;
@@ -217,7 +241,7 @@
 			);
 			name = Runner;
 			productName = Runner;
-			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
+			productReference = 97C146EE1CF9000F007C117D /* Flutter Flavors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -477,7 +501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -488,7 +512,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flutter Flavors";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -656,7 +680,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -667,7 +691,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flutter Flavors";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -679,7 +703,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -690,7 +714,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flutter Flavors";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -756,7 +780,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-app1";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -767,7 +791,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.app1;
-				PRODUCT_NAME = "$(TARGET_NAME) - Application 1";
+				PRODUCT_NAME = "Application 1";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -852,7 +876,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-app2";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -863,7 +887,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.app2;
-				PRODUCT_NAME = "$(TARGET_NAME) - Application 2";
+				PRODUCT_NAME = "Application 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -948,7 +972,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -959,7 +983,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.dev;
-				PRODUCT_NAME = "$(TARGET_NAME) - Dev";
+				PRODUCT_NAME = "Flutter Flavors";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1041,7 +1065,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-app1";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1052,7 +1076,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.app1;
-				PRODUCT_NAME = "$(TARGET_NAME) - Application 1";
+				PRODUCT_NAME = "Application 1";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1061,7 +1085,7 @@
 		};
 		FDC50CE42B765EBD0058C428 /* Release-App1 */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5048C1D14BE29FE36ADCA185 /* Pods-RunnerTests.release.xcconfig */;
+			baseConfigurationReference = 75042968D3A3B680BC0F7E19 /* Pods-RunnerTests.release-app1.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1131,7 +1155,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1142,7 +1166,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.dev;
-				PRODUCT_NAME = "$(TARGET_NAME) - Dev";
+				PRODUCT_NAME = "Flutter Flavors";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1151,7 +1175,7 @@
 		};
 		FDC50CE72B765EC20058C428 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5048C1D14BE29FE36ADCA185 /* Pods-RunnerTests.release.xcconfig */;
+			baseConfigurationReference = 84120EABC268EA262FB36BBC /* Pods-RunnerTests.release-dev.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1221,7 +1245,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-app2";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1232,7 +1256,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.app2;
-				PRODUCT_NAME = "$(TARGET_NAME) - Application 2";
+				PRODUCT_NAME = "Application 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1241,7 +1265,7 @@
 		};
 		FDC50CEA2B765EDD0058C428 /* Release-App2 */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5048C1D14BE29FE36ADCA185 /* Pods-RunnerTests.release.xcconfig */;
+			baseConfigurationReference = A45D5F4E378C4FBDFB0DFE64 /* Pods-RunnerTests.release-app2.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1309,7 +1333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1320,7 +1344,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.dev;
-				PRODUCT_NAME = "$(TARGET_NAME) - Dev";
+				PRODUCT_NAME = "Flutter Flavors";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1329,7 +1353,7 @@
 		};
 		FDC50CED2B765EE20058C428 /* Profile-Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91C2917B6D9E43E9AE91F58 /* Pods-RunnerTests.profile.xcconfig */;
+			baseConfigurationReference = 8689AA4166EE284239D43530 /* Pods-RunnerTests.profile-dev.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1397,7 +1421,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-app1";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1408,7 +1432,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.app1;
-				PRODUCT_NAME = "$(TARGET_NAME) - Application 1";
+				PRODUCT_NAME = "Application 1";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1417,7 +1441,7 @@
 		};
 		FDC50CF02B765EEA0058C428 /* Profile-App1 */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91C2917B6D9E43E9AE91F58 /* Pods-RunnerTests.profile.xcconfig */;
+			baseConfigurationReference = CEFCB8D5FAA32F1AA7D4A2F2 /* Pods-RunnerTests.profile-app1.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1485,7 +1509,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-app2";
 				BASE_BUNDLE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1496,7 +1520,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.andriivivcharenko.flutter_flavors.app2;
-				PRODUCT_NAME = "$(TARGET_NAME) - Application 2";
+				PRODUCT_NAME = "Application 2";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1505,7 +1529,7 @@
 		};
 		FDC50CF32B765EF30058C428 /* Profile-App2 */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91C2917B6D9E43E9AE91F58 /* Pods-RunnerTests.profile.xcconfig */;
+			baseConfigurationReference = ABD7DC4537C4F136860575AA /* Pods-RunnerTests.profile-app2.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

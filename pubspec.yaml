@@ -4,7 +4,7 @@ description: "A new Flutter project."
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
+  sdk: '>=2.18.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -18,12 +18,11 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
-
-  uses-material-design: true
-
   assets:
+    - assets/common/
     - path: assets/dev/
       flavors:
         - dev
@@ -33,4 +32,8 @@ flutter:
     - path: assets/app2/
       flavors:
         - app2
+
+
+  uses-material-design: true
+
 
