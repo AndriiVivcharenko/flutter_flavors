@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_flavors/utils/assets_utils.dart';
@@ -11,9 +12,16 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   @override
   void initState() {
+    FirebaseFirestore.instance
+        .collection("configs")
+        .doc("env")
+        .get()
+        .then((value) {
+      print(value.data());
+    });
+
     super.initState();
   }
 
