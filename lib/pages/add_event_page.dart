@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_flavors/colors.dart';
 import 'package:flutter_flavors/common/event_with_label/event_label.dart';
 import 'package:flutter_flavors/common/event_with_label/event_with_label.dart';
+import 'package:flutter_flavors/utils/white_label_utils.dart';
 import 'package:intl/intl.dart';
 
 class AddEventPage extends StatefulWidget {
@@ -178,77 +179,79 @@ class _AddEventPageState extends State<AddEventPage> {
                             const SizedBox(
                               height: 32,
                             ),
-                            Padding(
-                              padding:
-                                  const EdgeInsets.symmetric(horizontal: 16.0),
-                              child: Row(
-                                children: [
-                                  const Text(
-                                    "Label:",
-                                    style: TextStyle(
-                                      color: ExampleColors.black,
-                                      fontSize: 16,
+                            if (WhiteLabelUtils.getWhiteLabelType() ==
+                                WhiteLabelType.application2)
+                              Padding(
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 16.0),
+                                child: Row(
+                                  children: [
+                                    const Text(
+                                      "Label:",
+                                      style: TextStyle(
+                                        color: ExampleColors.black,
+                                        fontSize: 16,
+                                      ),
                                     ),
-                                  ),
-                                  const Spacer(),
-                                  DropdownButton<EventLabel>(
-                                    items: EventLabel.values
-                                        .map(
-                                          (e) => DropdownMenuItem(
-                                            child: Padding(
-                                              padding:
-                                                  const EdgeInsets.all(8.0),
-                                              child: Row(
-                                                children: [
-                                                  Container(
-                                                    width: 16,
-                                                    height: 16,
-                                                    decoration: BoxDecoration(
-                                                      color: e.color,
-                                                      borderRadius:
-                                                          BorderRadius.circular(
-                                                              4),
+                                    const Spacer(),
+                                    DropdownButton<EventLabel>(
+                                      items: EventLabel.values
+                                          .map(
+                                            (e) => DropdownMenuItem(
+                                              value: e,
+                                              child: Padding(
+                                                padding:
+                                                    const EdgeInsets.all(8.0),
+                                                child: Row(
+                                                  children: [
+                                                    Container(
+                                                      width: 16,
+                                                      height: 16,
+                                                      decoration: BoxDecoration(
+                                                        color: e.color,
+                                                        borderRadius:
+                                                            BorderRadius
+                                                                .circular(4),
+                                                      ),
                                                     ),
-                                                  ),
-                                                  const SizedBox(
-                                                    width: 16,
-                                                  ),
-                                                  Text(e.name),
-                                                ],
+                                                    const SizedBox(
+                                                      width: 16,
+                                                    ),
+                                                    Text(e.name),
+                                                  ],
+                                                ),
                                               ),
                                             ),
-                                            value: e,
-                                          ),
-                                        )
-                                        .toList(),
-                                    onChanged: (value) {
-                                      _label = value!;
-                                      if (mounted) {
-                                        setState(() {});
-                                      }
-                                    },
-                                    value: _label,
-                                    style: const TextStyle(
-                                      color: ExampleColors.black,
+                                          )
+                                          .toList(),
+                                      onChanged: (value) {
+                                        _label = value!;
+                                        if (mounted) {
+                                          setState(() {});
+                                        }
+                                      },
+                                      value: _label,
+                                      style: const TextStyle(
+                                        color: ExampleColors.black,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8),
+                                      underline: Container(
+                                        height: 0,
+                                      ),
+                                      icon: const Icon(
+                                        Icons.arrow_drop_down,
+                                        color: ExampleColors.black,
+                                        size: 24,
+                                      ),
+                                      iconSize: 4,
+                                      elevation: 4,
                                     ),
-                                    borderRadius: BorderRadius.circular(8),
-                                    underline: Container(
-                                      height: 0,
+                                    const SizedBox(
+                                      width: 12,
                                     ),
-                                    icon: const Icon(
-                                      Icons.arrow_drop_down,
-                                      color: ExampleColors.black,
-                                      size: 24,
-                                    ),
-                                    iconSize: 4,
-                                    elevation: 4,
-                                  ),
-                                  const SizedBox(
-                                    width: 12,
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
-                            ),
                             const SizedBox(
                               height: 12,
                             ),
