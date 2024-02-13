@@ -40,4 +40,16 @@ class WhiteLabelUtils {
         return WhiteLabelType.devApp;
     }
   }
+
+  static String getBackendUrl() {
+    switch (getWhiteLabelType()) {
+      case WhiteLabelType.application1:
+        return 'https://app1.example.com';
+      case WhiteLabelType.application2:
+        return 'https://app2.example.com';
+      case WhiteLabelType.devApp:
+        return 'http://localhost:3000';
+    }
+  }
+
 }

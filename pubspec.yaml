@@ -12,8 +12,12 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   flutter_native_splash: ^2.3.8
+
+  flutter_customizable_calendar: 0.3.4
+  flutter_bloc: ^8.1.4
+
   firebase_core: ^2.25.4
-  cloud_firestore: 4.15.4
+  firebase_remote_config: ^4.3.13
 
 dev_dependencies:
   flutter_test:
