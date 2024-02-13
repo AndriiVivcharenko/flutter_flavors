@@ -1,11 +1,17 @@
 part of 'events_with_label_cubit.dart';
 
 @immutable
-abstract class EventsWithLabelState {}
+abstract class EventsWithLabelState extends Equatable {}
 
-class EventsWithLabelInitial extends EventsWithLabelState {}
+class EventsWithLabelInitial extends EventsWithLabelState {
+  @override
+  List<Object?> get props => [];
+}
 
-class EventsWithLabelLoading extends EventsWithLabelState {}
+class EventsWithLabelLoading extends EventsWithLabelState {
+  @override
+  List<Object?> get props => [];
+}
 
 class EventsWithLabelInitialized extends EventsWithLabelState {
   EventsWithLabelInitialized({
@@ -21,4 +27,7 @@ class EventsWithLabelInitialized extends EventsWithLabelState {
       events: events ?? this.events,
     );
   }
+
+  @override
+  List<Object?> get props => [events];
 }

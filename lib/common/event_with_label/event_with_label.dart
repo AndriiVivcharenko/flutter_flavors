@@ -60,4 +60,6 @@ class EventWithLabel extends EditableCalendarEvent {
       throw Exception('You must specify either update or create');
     }
   }
+
+
 }

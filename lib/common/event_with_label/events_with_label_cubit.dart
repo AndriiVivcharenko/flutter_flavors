@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:bloc/bloc.dart';
+import 'package:equatable/equatable.dart';
 import 'package:flutter_customizable_calendar/flutter_customizable_calendar.dart';
 import 'package:flutter_flavors/common/event_with_label/event_with_label.dart';
 import 'package:flutter_flavors/database/repositories/events_with_label_repository.dart';
@@ -24,7 +25,7 @@ class EventsWithLabelCubit extends Cubit<EventsWithLabelState> {
     emit(EventsWithLabelInitialized(events: events));
   }
 
-  void updateEvent(FloatingCalendarEvent value) async {
+  Future<void> updateEvent(FloatingCalendarEvent value) async {
     final state = this.state;
     if (state is EventsWithLabelInitialized) {
       final events = state.events;
@@ -38,12 +39,22 @@ class EventsWithLabelCubit extends Cubit<EventsWithLabelState> {
     }
   }
 
-  void addEvent(FloatingCalendarEvent value) async {
+  Future<void> addEvent(FloatingCalendarEvent value) async {
     final state = this.state;
     if (state is EventsWithLabelInitialized) {
       final events = state.events;
       events.add(value);
       await repository.create(value as EventWithLabel);
+      emit(EventsWithLabelInitialized(events: events));
+    }
+  }
+
+  Future<void> deleteEvent(FloatingCalendarEvent value) async {
+    final state = this.state;
+    if (state is EventsWithLabelInitialized) {
+      final events = state.events;
+      events.removeWhere((element) => element.id == value.id);
+      await repository.delete(value as EventWithLabel);
       emit(EventsWithLabelInitialized(events: events));
     }
   }
