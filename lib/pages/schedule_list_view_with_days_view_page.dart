@@ -5,6 +5,8 @@ import 'package:flutter_flavors/colors.dart';
 import 'package:flutter_flavors/common/event_with_label/event_label.dart';
 import 'package:flutter_flavors/common/event_with_label/event_with_label.dart';
 import 'package:flutter_flavors/common/event_with_label/events_with_label_cubit.dart';
+import 'package:flutter_flavors/database/app_database.dart';
+import 'package:flutter_flavors/database/repositories/events_with_label_repository.dart';
 import 'package:flutter_flavors/pages/add_event_page.dart';
 import 'package:flutter_flavors/pages/days_view_page.dart';
 import 'package:flutter_flavors/repositories/remote_config_repository.dart';
@@ -32,14 +34,17 @@ class _ScheduleListViewWithDaysViewState
   @override
   Widget build(BuildContext context) {
     return BlocProvider<EventsWithLabelCubit>(
-      create: (context) => EventsWithLabelCubit()..init(),
+      create: (context) => EventsWithLabelCubit(
+        repository: context.read<EventsWithLabelRepository>(),
+      )..init(),
       child: Scaffold(
         backgroundColor: ExampleColors.white,
         body: SafeArea(
           bottom: false,
           child: BlocBuilder<EventsWithLabelCubit, EventsWithLabelState>(
             builder: (context, state) {
-              if (state is EventsWithLabelInitial) {
+              if (state is EventsWithLabelInitial ||
+                  state is EventsWithLabelLoading) {
                 return const Center(
                   child: CircularProgressIndicator(),
                 );

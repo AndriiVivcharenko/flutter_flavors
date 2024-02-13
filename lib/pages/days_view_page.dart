@@ -1,9 +1,7 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_customizable_calendar/flutter_customizable_calendar.dart';
 import 'package:flutter_flavors/colors.dart';
-import 'package:flutter_flavors/common/event_with_label/all_day_event_with_label.dart';
 import 'package:flutter_flavors/common/event_with_label/event_label.dart';
 import 'package:flutter_flavors/common/event_with_label/event_with_label.dart';
 import 'package:flutter_flavors/common/event_with_label/events_with_label_cubit.dart';
@@ -97,8 +95,7 @@ class _DaysViewPageState extends State<DaysViewPage> {
                         eventHeight: 32,
                         backgroundColor: Colors.white,
                         containerPadding: EdgeInsets.zero,
-                        eventPadding:
-                            EdgeInsets.symmetric(horizontal: 4.0),
+                        eventPadding: EdgeInsets.symmetric(horizontal: 4.0),
                         eventMargin: EdgeInsets.zero,
                         margin: EdgeInsets.symmetric(
                             horizontal: 16.0, vertical: 2.0),
@@ -155,12 +152,6 @@ class _DaysViewPageState extends State<DaysViewPage> {
     return {
       EventWithLabel: (context, data) {
         return _buildEventWithLabel(data);
-      },
-      AllDayEventWithLabel: (context, data) {
-        return _buildEventWithLabel(
-          data,
-          allDay: true,
-        );
       },
     };
   }

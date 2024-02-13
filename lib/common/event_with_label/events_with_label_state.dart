@@ -5,6 +5,8 @@ abstract class EventsWithLabelState {}
 
 class EventsWithLabelInitial extends EventsWithLabelState {}
 
+class EventsWithLabelLoading extends EventsWithLabelState {}
+
 class EventsWithLabelInitialized extends EventsWithLabelState {
   EventsWithLabelInitialized({
     required this.events,
