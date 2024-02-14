@@ -39,7 +39,4 @@ class RemoteConfigRepository {
     await remoteConfig.fetchAndActivate();
   }
 
-  String getWelcomeMessage() {
-    return remoteConfig.getString('welcome_message');
-  }
 }
